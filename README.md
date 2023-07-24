@@ -3,12 +3,12 @@
 </p>
 
 <h1>osTicket - Post-Installation Configurations</h1>
-This tutorial outlines some post-install configurations of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines post-installation configurations of the open-source help desk ticketing system osTicket.<br />
 
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+- ### [YouTube: How To Configure Post-Installations in osTicket](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,54 +22,55 @@ This tutorial outlines some post-install configurations of the open-source help 
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Configure a "Supreme Administrator"
-- Configure a "System Admininstrators" unit in Departments
-- Configure a "Level I Support" and "Level II Support" team. 
-- Configure three SLA metrics for responding to tickets.
-- Configure a "Help Topics" for FAQ.
-- Congfigure an "Agent" for ticket assignments.
+- Configure a "Supreme Administrator".
+- Configure a "System Admininstrators" unit in Departments.
+- Configure a "Level I Support" team. 
+- Configure a SLA metric for ticket assignments.
+- Configure a "Help Topic" for FAQ.
+- Configure an "Agent" for ticket assignments.
   
 <h2>Instructions</h2>
 
-- **Configure a "Supreme Administrator"**
-  - Click on the "Roles" tab:
-    *Admin Panel -> Agents -> Roles*
-    Supreme Admin
+- **Configure a "Supreme Administrator".**
+  - Click on "Admin Panel" tab:
 
-    (picture)
+    *Agents -> Roles -> Add New Role*
+
+    ![Screen Shot 2023-07-24 at 3 40 15 PM](https://github.com/AIweave/osTicket-Post-Installation-Configuration/assets/121763338/56dcfdd3-1eea-4396-92ad-3cd5fcf60e0b)
 
 - **Configure a "System Admininstrators" unit in Departments.**
-  - Configure Departments
-    *Admin Panel -> Agents -> Departments*
-    System Administrators
+  - Click on "Admin Panel" tab:
+    
+    *Agents -> Departments -> Add New Department*
 
-    (picture)
+    ![Screen Shot 2023-07-24 at 3 39 34 PM](https://github.com/AIweave/osTicket-Post-Installation-Configuration/assets/121763338/5382a09e-05f3-4909-9875-7cfae8d754e5)
 
 - **Configure a "Level I Support" and "Level II Support" team.**
-  - Configure Teams
-    *Admin Panel -> Agents -> Teams*
-    Level I Support
-    Level II Support
+  - Click on "Admin Panel" tab:
+    
+    *Agents -> Teams -> Add New Team*
 
-    (picture)
+    ![Screen Shot 2023-07-24 at 3 41 14 PM](https://github.com/AIweave/osTicket-Post-Installation-Configuration/assets/121763338/fab83500-4697-457d-ae7e-34a50b3b469e)
 
-- Configure three SLA metrics for responding to tickets.
-    - Configure SLA
-    Admin Panel -> Manage -> SLA
-    Sev-A (1 hour, 24/7)
-    Sev-B (4 hours, 24/7)
-    Sev-C (8 hours, business hours)
+- **Configure three SLA metrics for responding to tickets.**
+  - Click on "Admin Panel" tab:
+  
+    *Manage -> SLA -> Add New SLA Plan*
 
-    (pic)
+    ![Screen Shot 2023-07-24 at 3 42 24 PM](https://github.com/AIweave/osTicket-Post-Installation-Configuration/assets/121763338/3e477c58-5463-4bbe-9d1e-436b2170d948)
+
 
 - **Configure a "Help Topics" for FAQ.**
-  - Configure Help Topics
-    Admin Panel -> Manage -> Help Topics
+  - Click on "Admin Panel" tab:
+    
+    *Manage -> Help Topics -> Add New Help Topic*
 
-    (pic)
+    ![Screen Shot 2023-07-24 at 3 44 16 PM](https://github.com/AIweave/osTicket-Post-Installation-Configuration/assets/121763338/f6e3dfaf-bc12-4cef-a22b-40b07b37c0ce)
+
 
 - **Congfigure an "Agent" for ticket assignments.**
-   Configure Agents (workers)
-    Admin Panel -> Agents -> Add New
-    Jane
-    John
+  - Click on "Admin Panel" tab:
+    
+    *Agents -> Agents -> Add New Agent*
+
+    ![Screen Shot 2023-07-24 at 3 45 32 PM](https://github.com/AIweave/osTicket-Post-Installation-Configuration/assets/121763338/d5678a23-84ac-4f28-87da-e8f927141c86)
